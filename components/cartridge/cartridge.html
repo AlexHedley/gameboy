@@ -1,0 +1,27 @@
+<div class="cartridge-container">
+  <div class="cartridge {{$ctrl.colour}}">
+    <div class="top"></div>
+    <div class="logo"></div>
+    <div class="lines">
+      <div class="bar left one"></div>
+      <div class="bar left two"></div>
+      <div class="bar left three"></div>
+      <div class="bar left four"></div>
+      <div class="bar right one"></div>
+      <div class="bar right two"></div>
+      <div class="bar right three"></div>
+      <div class="bar right four"></div>
+    </div>
+    <div class="inset">
+      <div class="label">
+        <div class="info-title info right">{{$ctrl.rhs}}</div>
+        <div class="info left">{{$ctrl.lhs || "This Side Out"}}</div>
+        <!-- <div class="title-large">{{$ctrl.gamename}}</div> -->
+        <img class="cover" ng-src="{{$ctrl.image}}" />
+      </div>
+    </div>
+    <div class="edge left"></div>
+    <div class="edge right"></div>
+    <div class="arrow"></div>
+  </div>
+</div>
