@@ -1,22 +1,24 @@
 {
-    "games": [
-        {
-            "id": 1,
-            "name": "",
-            "date": "2021-01-01",
-            "description": "",
-            "players": [
-                {
-                    "name": "",
-                    "score": 0,
-                    "winner": true
-                },
-                {
-                    "name": "",
-                    "score": 0,
-                    "winner": false
-                }
-            ]
-        }
-    ]
+  "games": [
+    {
+      "id": 1,
+      "name": "Pokémon Red",
+      "date": "2000-01-01",
+      "description": "",
+      "lhs": "",
+      "rhs": "POKÉMON RED",
+      "colour": "red",
+      "image": "images/PokemonRed.png"
+    },
+    {
+      "id": 1,
+      "name": "Pokémon Yellow",
+      "date": "2000-01-01",
+      "description": "",
+      "lhs": "",
+      "rhs": "POKÉMON YELLOW",
+      "colour": "orange",
+      "image": "images/PokemonYellow.png"
+    }
+  ]
 }
